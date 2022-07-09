@@ -26,8 +26,13 @@ h3 {
     font-size: 28px;
 }
 
+h4, ul, ol {
+    margin: 0;
+}
+
+
 header {
-    background-color: #588C94;
+    background-color: #551A8B;
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -53,4 +58,18 @@ header {
 
 .column {
     margin: 0 10px;
+}
+
+.bio-section {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.profile-picture {
+    border: 5px solid black;
+}
+
+.list-of-learning-section {
+    height: 100px;
 }
